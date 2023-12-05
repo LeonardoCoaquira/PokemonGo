@@ -14,6 +14,10 @@
 		799D78612B1BD5F4000BE296 /* PokemonGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 799D785F2B1BD5F4000BE296 /* PokemonGo.xcdatamodeld */; };
 		799D78632B1BD5F6000BE296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799D78622B1BD5F6000BE296 /* Assets.xcassets */; };
 		799D78662B1BD5F6000BE296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799D78642B1BD5F6000BE296 /* LaunchScreen.storyboard */; };
+		799D786F2B1BD68C000BE296 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799D786E2B1BD68C000BE296 /* MapKit.framework */; };
+		799D78712B1BEC1B000BE296 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D78702B1BEC1A000BE296 /* PokedexViewController.swift */; };
+		799D78732B1BEDC8000BE296 /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D78722B1BEDC8000BE296 /* Funciones.swift */; };
+		799D78752B1BF8E9000BE296 /* PokePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D78742B1BF8E9000BE296 /* PokePin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		799D78622B1BD5F6000BE296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		799D78652B1BD5F6000BE296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		799D78672B1BD5F6000BE296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799D786E2B1BD68C000BE296 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		799D78702B1BEC1A000BE296 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		799D78722B1BEDC8000BE296 /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
+		799D78742B1BF8E9000BE296 /* PokePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokePin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799D786F2B1BD68C000BE296 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			children = (
 				799D78552B1BD5F4000BE296 /* PokemonGo */,
 				799D78542B1BD5F4000BE296 /* Products */,
+				799D786D2B1BD68C000BE296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +76,19 @@
 				799D78642B1BD5F6000BE296 /* LaunchScreen.storyboard */,
 				799D78672B1BD5F6000BE296 /* Info.plist */,
 				799D785F2B1BD5F4000BE296 /* PokemonGo.xcdatamodeld */,
+				799D78702B1BEC1A000BE296 /* PokedexViewController.swift */,
+				799D78722B1BEDC8000BE296 /* Funciones.swift */,
+				799D78742B1BF8E9000BE296 /* PokePin.swift */,
 			);
 			path = PokemonGo;
+			sourceTree = "<group>";
+		};
+		799D786D2B1BD68C000BE296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				799D786E2B1BD68C000BE296 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				799D785B2B1BD5F4000BE296 /* ViewController.swift in Sources */,
+				799D78752B1BF8E9000BE296 /* PokePin.swift in Sources */,
 				799D78612B1BD5F4000BE296 /* PokemonGo.xcdatamodeld in Sources */,
+				799D78712B1BEC1B000BE296 /* PokedexViewController.swift in Sources */,
 				799D78572B1BD5F4000BE296 /* AppDelegate.swift in Sources */,
+				799D78732B1BEDC8000BE296 /* Funciones.swift in Sources */,
 				799D78592B1BD5F4000BE296 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
